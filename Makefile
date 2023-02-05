@@ -3,7 +3,7 @@ CONTAINER_NAME = app
 APPLICATION = application
 DOCKER = docker exec $(CONTAINER_NAME)
 
-prepare: build up
+prepare: build up install
 
 run: format lint
 	$(DOCKER) npm start
