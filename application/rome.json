@@ -1,0 +1,25 @@
+{
+    "formatter": {
+        "enabled": true,
+        "formatWithErrors": false,
+        "indentStyle": "tab",
+        "indentSize": 2,
+        "lineWidth": 80,
+        "ignore": [
+            "scripts/*.js"
+        ]
+    },
+    "linter": {
+        "enabled": true,
+        "rules": {
+            "style": {
+                "useBlockStatements": "error",
+                "useShorthandArrayType": "error",
+                "noShoutyConstants": "warn"
+            }
+        },
+        "ignore": [
+            "scripts/*.js"
+        ]
+    }
+}
