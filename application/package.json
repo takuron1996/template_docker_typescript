@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "main": "src/main.js",
     "scripts": {
-        "prestart": "npx tsc src/*",
+        "prestart": "npx tsc --build tsconfig.json",
         "start": "node src/main.js",
         "format": "rome format --write src",
         "lint": "rome check --apply-suggested src",
