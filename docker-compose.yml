@@ -8,4 +8,7 @@ services:
       dockerfile: containers/typescript/Dockerfile
     volumes:
       - ./application:/application
+      - front_node_modules:/application/node_modules
     tty: true
+volumes:
+  front_node_modules:
